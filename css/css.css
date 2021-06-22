@@ -52,8 +52,14 @@ html body
 font-weight: bold;
 width: 500px;
 }
-ul
+.drop
 {
+  position: absolute;
+
+}
+ul
+{ 
+  
   list-style-type: none;
   font-size: 20px;
 
@@ -142,9 +148,10 @@ padding: 50px;
 .disfuture
 {
   width: 100%;
-  display: flex;
+ display: flex;
   flex-wrap: wrap-reverse;
     justify-items: center;
+    margin-top: -100px;
 }
 .future
 {
@@ -153,11 +160,10 @@ padding: 50px;
   padding: 0px 80px;
 
 }
-.future img
+.disfuture img
 {
   width: 600px;
-  height: 600px;
-  margin-top: -100px;
+  height: 500px;
 }
 .infracture
 {
@@ -190,6 +196,13 @@ padding: 50px;
   flex-wrap: wrap;
     justify-items: center;
 }
+.disfuture2 img
+{
+  width: 600px;
+  height: 500px;
+  margin-top: -97px;
+}
+
 .footer
 {
   width: 100%;
@@ -209,18 +222,21 @@ padding: 50px;
   height: 100px;
   font-size: 20px;
 }
-
+.footer div b
+{
+  color: #fff;
+}
 @media screen and (max-width: 375px)
 {
   .headbackground
 {
-  width: 600px;
-  height: 2000px;
+  width: 671px;
+  height: 900px;
   border-radius:0px 0px 0px 150px;
   background-color: hsl(356, 100%, 66%);
   background-image: url(../images/bg-pattern-intro.svg);
-  background-position:-400px 1550px ;
-   background-size:290%;
+  background-position:-1200px 2800px ;
+   background-size:590%;
    padding-top: 10px;
 
 }
@@ -229,9 +245,8 @@ padding: 50px;
 {
   width: 100%;
   height: auto;
-  display: block;
+  display: flex;
   align-items: center;
-  padding: 0px 30px;
 }
 #blogrtitle
 {
@@ -242,20 +257,20 @@ padding: 50px;
   font-family: 'Kumbh Sans', sans-serif;
   width: 150px;
   text-align: right;
-  padding: 50px;
+  padding:20px 10px;
 }
 .nav
 {
-  width: 80%;
+  width: 70%;
   display: block;
-  align-items: center;
-  justify-content: space-between;
+  background-color: red;
 }
 #navbar
 {
 font-weight: bold;
 width: 500px;
 }
+/*
 ul
 {
   list-style-type: none;
@@ -283,7 +298,7 @@ li a:hover
 
 border-radius: 50px 50px 50px 50px;
 color: white;
-}
+}*/
 #navlogin
 {
 font-size: 20px;
@@ -301,24 +316,24 @@ font-size: 20px;
 
 #brandcontent
 {
-  margin: 200px 10px;
+  margin: 90px 10px;
   width: 100%;
 }
 #modercontent
 {
-  padding: 10px 100px;
-  font-size: 50px;
+  font-size: 57px;
+text-align: center;
   color: #fff;
 }
 #growcontent
 {
-  padding: 0px 90px;
+  padding: 0px 110px;
    color: #fff;
-   font-size: 28px;
+   font-size: 30px;
 }
 #buttongroup
 {
-  margin: 50px 100px;
+  margin: 130px 100px;
 }
 #buttongroup button
 {
@@ -330,14 +345,91 @@ font-size: 20px;
   font-size: 23px;
   
 }
-#star
+#titlefutere
 {
-  color: red;
-  
+ text-align: center;
+ font-size: 35px;
+padding:30px;
+width: 659px;
+font-weight: bold;
 }
-#learn
+.disfuture
 {
-  background-color: transparent;
+  margin-top: 20px;
+  width: 659px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+    justify-items: center;
+    text-align: center;
+}
+.future
+{
+  width: 659px;
+  height: 1000px;
+
+}
+.disfuture img
+{
+  width: 600px;
+  height: 600px;
+  margin-top: 1px;
+}
+.future div
+{
+  font-size: 30px;
+  height: 500px;
+}
+.infracture
+{
+  margin-top: 40px;
+   width: 660px;
+   height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color:hsl(237, 17%, 21%);
+  border-radius: 0px 90px 0px 100px;
   color: #fff;
-  border: 2px solid #fff;
+  font-size: 25px;
+  text-align: center;
+}
+.disfuture2
+{
+  margin-top: 200px;
+  width: 680px;
+  display: flex;
+  flex-wrap: wrap;
+    justify-items: center;
+    text-align: center;
+}
+.disfuture2 img
+{
+  width: 600px;
+  height: 600px;
+}
+.footer
+{
+  width: 677px;
+  height: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color:  hsl(237, 17%, 21%);
+  justify-content: space-between;
+  padding: 20px 200px;
+  color: hsl(240, 2%, 79%);
+  border-radius: 0px 60px 0px 0px;
+}
+#blog
+{
+  height: 120px;
+}
+.footer div
+{
+
+  width: 200px;
+  height: 400px;
+  font-size: 50px;
+}
+.footer div b
+{
+  color: #fff;
 }
